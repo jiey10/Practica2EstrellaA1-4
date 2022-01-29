@@ -1,5 +1,15 @@
 import 'dart:io';
 
+/*
+Asignatura: Desarrollo Movil Multiplataforma
+Maestro(a): Chuc Uc Joel Iván
+Práctica 2: Ejercicio 1 Calculo de Salario
+Nombre: Estrella Yah Jesús Iván
+5to Cuatrimestre: Enero – Abril
+1er Parcial Grupo: 5B
+Fecha: 29 – Enero - 2022
+*/
+
 void main(){
 
   int sueldo = 120;

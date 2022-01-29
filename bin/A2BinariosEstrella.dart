@@ -1,5 +1,15 @@
 import 'dart:io';
 
+/*
+Asignatura: Desarrollo Movil Multiplataforma
+Maestro(a): Chuc Uc Joel Iván
+Práctica 2: Ejercicio 2 Numeros Binarios
+Nombre: Estrella Yah Jesús Iván
+5to Cuatrimestre: Enero – Abril
+1er Parcial Grupo: 5B
+Fecha: 29 – Enero - 2022
+*/
+
 void main(List<String> arguments){
 
   int iniciar = 1;
@@ -19,16 +29,19 @@ void main(List<String> arguments){
 
       int indice = 1;
 
+      print('El valor del numero Decimal es: $decimal');
+
       while (decimal > 0) 
       {
       binario = binario + (decimal % 2) * indice;
+
 
       decimal = (decimal / 2).floor();
 
       indice = indice * 10; 
       }
       print(' ');
-      print("El valor del numero Decimal es $decimal  y en Binario es $binario");
+      print("El valor del numero ingresado, en Binario es: $binario");
       print(' ');
 
     } 

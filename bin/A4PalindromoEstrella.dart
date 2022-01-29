@@ -1,5 +1,15 @@
 import 'dart:io';
 
+/*
+Asignatura: Desarrollo Movil Multiplataforma
+Maestro(a): Chuc Uc Joel Iván
+Práctica 2: Ejercicio 4 Palindormo
+Nombre: Estrella Yah Jesús Iván
+5to Cuatrimestre: Enero – Abril
+1er Parcial Grupo: 5B
+Fecha: 29 – Enero - 2022
+*/
+
 void main() {
   
   String espacios;
@@ -17,12 +27,11 @@ void main() {
     {
       print('Por favor ingrese una palabra o una oracion: ');
       print('No se aceptan comas, puntos, guiones o números!!!');
+      print('Pero si las pones por error no pasa nada, el programa las omitirá');
       print('');
       String ? original = stdin.readLineSync()!;
 
       contador = original.split(' ').length;
-
-      print(contador);
 
       espacios = original
         .trim()
@@ -47,6 +56,7 @@ void main() {
 
       String reversa = minusculassignos.split('').reversed.join('');
 
+      //print(contador);
       //print(minusculassignos);
 
       if(minusculassignos == reversa)
